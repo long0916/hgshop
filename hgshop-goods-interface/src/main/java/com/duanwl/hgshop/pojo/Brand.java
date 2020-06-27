@@ -1,20 +1,19 @@
 package com.duanwl.hgshop.pojo;
 
 import java.io.Serializable;
+
 /**
- * 
- * @ClassName: Brand 
- * @Description: 品牌实体类
- * @author: 段文龙
- * @date: 2020年6月23日 下午6:58:35
+ * 品牌的实体Bean
+ * @author 45466
+ *
  */
-public class Brand implements Serializable{
+public class Brand  implements Serializable{
+	
 	/**
-	 * @fieldName: serialVersionUID
-	 * @fieldType: long
-	 * @Description: TODO
+	 * 
 	 */
-	private static final long serialVersionUID = 342712000219646087L;
+	private static final long serialVersionUID = 7286961587651453953L;
+	
 	Integer id;
 	String name;
 	String firstChar;
@@ -48,4 +47,8 @@ public class Brand implements Serializable{
 	public String toString() {
 		return "Brand [id=" + id + ", name=" + name + ", firstChar=" + firstChar + ", deletedFlag=" + deletedFlag + "]";
 	}
+	
+	
+	
+
 }

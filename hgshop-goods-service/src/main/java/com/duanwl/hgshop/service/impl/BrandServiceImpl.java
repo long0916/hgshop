@@ -1,6 +1,8 @@
 package com.duanwl.hgshop.service.impl;
 
+
 import java.util.List;
+
 
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,11 +13,11 @@ import com.duanwl.hgshop.service.BrandService;
 import com.github.pagehelper.PageInfo;
 
 @Service(interfaceClass = BrandService.class)
-public class BrandServiceImpl implements BrandService{
-
-	@Autowired
-	BrandDao brandDao;
+public class BrandServiceImpl implements BrandService {
 	
+	@Autowired
+	BrandDao brandDao ;
+
 	@Override
 	public int add(Brand brand) {
 		// TODO Auto-generated method stub
@@ -43,7 +45,7 @@ public class BrandServiceImpl implements BrandService{
 	@Override
 	public List<Brand> list() {
 		// TODO Auto-generated method stub
-		return brandDao.queryAll();
+		 return brandDao.queryAll();
 	}
 
 	@Override

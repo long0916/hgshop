@@ -2,6 +2,7 @@ package com.duanwl.hgshop.controller;
 
 import java.util.List;
 
+
 import javax.servlet.http.HttpServletRequest;
 
 import org.apache.dubbo.config.annotation.Reference;
@@ -18,9 +19,12 @@ public class BrandController {
 	@Reference
 	BrandService bs;
 	
+	@RequestMapping("list")
 	public String list(HttpServletRequest request) {
 		List<Brand> list = bs.list();
 		list.forEach(x->{System.out.println("x is " + x);});
-		return "list";
+		request.setAttribute("list", list); 
+		return "brand/list";
 	}
+	
 }

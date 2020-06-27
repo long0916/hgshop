@@ -4,6 +4,9 @@ import java.util.List;
 
 import com.duanwl.hgshop.pojo.Brand;
 
+
+
+
 public interface BrandDao {
 
 	List<Brand> queryAll();

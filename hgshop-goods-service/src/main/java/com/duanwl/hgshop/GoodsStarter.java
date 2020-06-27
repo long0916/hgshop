@@ -1,0 +1,26 @@
+package com.duanwl.hgshop;
+
+import java.io.IOException;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * 
+ * @ClassName: GoodsStarter 
+ * @Description: TODO
+ * @author: 段文龙
+ * @date: 2020年6月24日 下午4:27:30
+ */
+public class GoodsStarter {
+	
+	public static void main(String[] args) throws IOException {
+		System.out.println("商品服务启动开始。。。");
+		ClassPathXmlApplicationContext context = new  ClassPathXmlApplicationContext("classpath:applicationContext-dubbo-provider.xml",
+				"classpath:applicationContext-dao.xml");
+		context.start();
+		
+		System.out.println("商品服务启动成功，可以正常使用");
+		System.in.read();
+	}
+
+}

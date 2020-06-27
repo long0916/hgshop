@@ -23,7 +23,7 @@
 	
 	<!-- 注册中心 采用zookeeper 必须修改  -->
 	<dubbo:registry
-		address="zookeeper://192.168.88.128:2181" /> 
+		address="zookeeper://192.168.88.133:2181" /> 
 	<!-- 直连 -->
 	<!-- <dubbo:registry address="N/A" /> -->
 	<!-- 通讯协议 必须修改  注意，这个端口绝对不能冲突-->

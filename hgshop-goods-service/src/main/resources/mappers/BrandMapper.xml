@@ -3,10 +3,11 @@
 <mapper namespace="com.duanwl.hgshop.dao.BrandDao">
 	<!-- List<Brand> queryAll(); -->
 	<select id="queryAll" resultType="Brand">
-		select * from hg_brand
+		SELECT * FROM hg_brand 
 	</select>
+
 	<!-- Brand findById(int id); -->
 	<select id="findById" resultType="Brand">
-		select * from hg_brand where id=#{value}
+		SELECT * FROM hg_brand WHERE id=#{value}
 	</select>
 </mapper>
