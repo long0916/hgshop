@@ -1,7 +1,6 @@
 package com.duanwl.hgshop.service;
 
 import com.duanwl.hgshop.pojo.Spec;
-
 import com.github.pagehelper.PageInfo;
 
 public interface SpecService {

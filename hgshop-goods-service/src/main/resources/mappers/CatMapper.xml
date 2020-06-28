@@ -19,13 +19,18 @@
 			WHERE id=#{id}
 	</update>
 	<!-- int delete(int id); -->
-	<delete id=" delete">
-		DELETE FROM hg_category WHREE id=#{value}
+	<delete id="delete">
+		DELETE FROM hg_category WHERE id=#{value}
 	</delete>
 	
 	<!-- int list(int parentId); -->
 	<select id="list" resultMap="CapMap">
 		SELECT * FROM hg_category WHERE parent_id=#{value}
+	</select>
+	
+	<!-- 根据id获取分类 -->
+	<select id="findById" resultType="category">
+		SELECT * FROM hg_category WHERE id=#{value}
 	</select>
 	
 </mapper> 

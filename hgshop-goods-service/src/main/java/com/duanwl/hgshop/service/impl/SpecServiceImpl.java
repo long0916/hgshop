@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.apache.dubbo.config.annotation.Service;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.duanwl.hgshop.dao.SpecDao;
 import com.duanwl.hgshop.pojo.Spec;
@@ -69,7 +70,7 @@ public class SpecServiceImpl  implements SpecService{
 			result+=specDao.addOption(specOption);
 		}
 		
-		return 0;
+		return result;
 	}
 
 	@Override

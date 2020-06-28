@@ -17,7 +17,13 @@ import com.duanwl.hgshop.pojo.Spec;
 import com.duanwl.hgshop.pojo.SpecOption;
 import com.duanwl.hgshop.service.SpecService;
 import com.github.pagehelper.PageInfo;
-
+/**
+ * 
+ * @ClassName: SpecController 
+ * @Description: TODO
+ * @author: 段文龙
+ * @date: 2020年6月28日 下午6:47:03
+ */
 @Controller
 @RequestMapping("spec")
 public class SpecController {

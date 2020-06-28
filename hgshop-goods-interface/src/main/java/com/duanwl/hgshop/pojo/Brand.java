@@ -2,6 +2,7 @@ package com.duanwl.hgshop.pojo;
 
 import java.io.Serializable;
 
+
 /**
  * 品牌的实体Bean
  * @author 45466

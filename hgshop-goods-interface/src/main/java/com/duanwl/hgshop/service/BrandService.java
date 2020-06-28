@@ -2,6 +2,7 @@ package com.duanwl.hgshop.service;
 
 import java.util.List;
 
+
 import com.duanwl.hgshop.pojo.Brand;
 import com.github.pagehelper.PageInfo;
 
