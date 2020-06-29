@@ -11,9 +11,11 @@ import com.duanwl.hgshop.pojo.Category;
 import com.duanwl.hgshop.service.CategoryService;
 
 /**
- * 分类管理的服务
- * @author 45466
- *
+ * 
+ * @ClassName: CategoryServiceImpl 
+ * @Description: 分类管理的服务
+ * @author: 段文龙
+ * @date: 2020年6月29日 下午7:41:42
  */
 @Service(interfaceClass = CategoryService.class)
 public class CategoryServiceImpl  implements CategoryService {

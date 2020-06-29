@@ -3,9 +3,11 @@ package com.duanwl.hgshop.pojo;
 import java.io.Serializable;
 
 /**
- * 规格的属性
- * @author 45466
- *
+ * 
+ * @ClassName: SpecOption 
+ * @Description: 规格的属性
+ * @author: 段文龙
+ * @date: 2020年6月29日 下午7:39:53
  */
 public class SpecOption  implements Serializable{
 	

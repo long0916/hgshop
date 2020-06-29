@@ -7,9 +7,11 @@ import com.duanwl.hgshop.pojo.Brand;
 import com.github.pagehelper.PageInfo;
 
 /**
- * 品牌的管理
- * @author 45466
  * 
+ * @ClassName: BrandService 
+ * @Description: 品牌的管理
+ * @author: 段文龙
+ * @date: 2020年6月29日 下午7:40:18
  */
 public interface BrandService {
 	

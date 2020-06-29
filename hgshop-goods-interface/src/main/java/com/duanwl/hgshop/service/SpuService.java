@@ -5,9 +5,11 @@ import com.duanwl.hgshop.pojo.SpuVo;
 import com.github.pagehelper.PageInfo;
 
 /**
- * spu的管理
- * @author 45466
- *
+ * 
+ * @ClassName: SpuService 
+ * @Description: spu的管理
+ * @author: 段文龙
+ * @date: 2020年6月29日 下午7:40:48
  */
 public interface SpuService {
 	

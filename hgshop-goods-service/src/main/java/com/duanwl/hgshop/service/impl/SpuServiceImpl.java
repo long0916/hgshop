@@ -14,9 +14,9 @@ import com.github.pagehelper.PageInfo;
 /**
  * 
  * @ClassName: SpuServiceImpl 
- * @Description: TODO
+ * @Description: spu 的实现类
  * @author: 段文龙
- * @date: 2020年6月28日 下午9:08:21
+ * @date: 2020年6月29日 下午7:42:06
  */
 @Service(interfaceClass = SpuService.class)
 public class SpuServiceImpl implements SpuService{

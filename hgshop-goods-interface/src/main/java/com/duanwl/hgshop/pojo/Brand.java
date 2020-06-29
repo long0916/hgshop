@@ -4,9 +4,11 @@ import java.io.Serializable;
 
 
 /**
- * 品牌的实体Bean
- * @author 45466
- *
+ * 
+ * @ClassName: Brand 
+ * @Description: 品牌的实体Bean
+ * @author: 段文龙
+ * @date: 2020年6月24日 下午7:39:00
  */
 public class Brand  implements Serializable{
 	

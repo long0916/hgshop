@@ -64,7 +64,7 @@
 		 </div>
 		 
 		   <div class="form-group row">
-		   	<button type="button" class="btn btn-primary btn-lg" onclick="commitData()">修改</button>
+		   	<button type="button" class="btn btn-primary btn-lg" onclick="commitData()">添加</button>
 		   </div>
 		 		 
 	</form>

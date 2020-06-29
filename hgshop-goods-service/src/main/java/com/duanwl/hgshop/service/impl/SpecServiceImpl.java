@@ -15,9 +15,11 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- *  规格管理的实现类
- * @author 45466
- *
+ * 
+ * @ClassName: SpecServiceImpl 
+ * @Description: 规格管理的实现类
+ * @author: 段文龙
+ * @date: 2020年6月29日 下午7:41:56
  */
 @Service(interfaceClass = SpecService.class)
 public class SpecServiceImpl  implements SpecService{
@@ -84,6 +86,12 @@ public class SpecServiceImpl  implements SpecService{
 	public Spec getById(int id) {
 		// TODO Auto-generated method stub
 		return specDao.findById(id);
+	}
+
+	@Override
+	public List<Spec> listAll() {
+		// TODO Auto-generated method stub
+		return specDao.listAll();
 	}
 
 }

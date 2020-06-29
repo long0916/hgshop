@@ -4,9 +4,11 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * 规格实体
- * @author 45466
- *
+ * 
+ * @ClassName: Spec 
+ * @Description: 规格实体
+ * @author: 段文龙
+ * @date: 2020年6月29日 下午7:39:31
  */
 public class Spec implements Serializable {
 	

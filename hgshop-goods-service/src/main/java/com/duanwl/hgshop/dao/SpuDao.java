@@ -8,8 +8,10 @@ import com.duanwl.hgshop.pojo.SpuVo;
 
 /**
  * 
- * @author 45466
- *
+ * @ClassName: SpuDao 
+ * @Description: TODO
+ * @author: 段文龙
+ * @date: 2020年6月29日 下午7:41:28
  */
 public interface SpuDao {
 

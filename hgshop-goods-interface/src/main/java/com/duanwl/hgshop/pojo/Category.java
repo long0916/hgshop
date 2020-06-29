@@ -7,9 +7,11 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.databind.annotation.JsonAppend.Prop;
 
 /**
- * 分类
- * @author 45466
- *
+ * 
+ * @ClassName: Category 
+ * @Description: 分类
+ * @author: 段文龙
+ * @date: 2020年6月29日 下午7:39:12
  */
 public class Category implements Serializable {
 	

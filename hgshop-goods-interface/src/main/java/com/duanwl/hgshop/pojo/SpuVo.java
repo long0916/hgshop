@@ -1,9 +1,11 @@
 package com.duanwl.hgshop.pojo;
 
 /**
- * 用于封装查询条件
- * @author 45466
- *
+ * 
+ * @ClassName: SpuVo 
+ * @Description: 用于封装查询条件
+ * @author: 段文龙
+ * @date: 2020年6月29日 下午7:40:04
  */
 public class SpuVo  extends Spu {
 

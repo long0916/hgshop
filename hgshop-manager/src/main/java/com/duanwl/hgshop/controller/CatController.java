@@ -12,13 +12,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.duanwl.hgshop.pojo.Category;
 import com.duanwl.hgshop.service.CategoryService;
-/**
- * 
- * @ClassName: CatController 
- * @Description: TODO
- * @author: 段文龙
- * @date: 2020年6月28日 下午6:46:52
- */
+
 @Controller
 @RequestMapping("cat")
 public class CatController {

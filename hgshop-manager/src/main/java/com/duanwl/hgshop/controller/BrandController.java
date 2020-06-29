@@ -11,13 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.duanwl.hgshop.pojo.Brand;
 import com.duanwl.hgshop.service.BrandService;
-/**
- * 
- * @ClassName: BrandController 
- * @Description: TODO
- * @author: 段文龙
- * @date: 2020年6月28日 下午6:46:47
- */
+
 @Controller
 @RequestMapping("brand")
 public class BrandController {
