@@ -10,11 +10,9 @@ import com.duanwl.hgshop.pojo.SkuVo;
 import com.duanwl.hgshop.pojo.SpecOption;
 
 /**
- * 
- * @ClassName: SkuDao 
- * @Description: sku 的curd
- * @author: 段文龙
- * @date: 2020年6月29日 下午7:41:20
+ * sku 的curd
+ * @author 45466
+ *
  */
 public interface SkuDao {
 
@@ -27,6 +25,7 @@ public interface SkuDao {
 
 	int update(Sku sku);	
 
+	// 获取详情进行回显
 	Sku findById(int id);
 	List<Sku> list(SkuVo skuvo);
 

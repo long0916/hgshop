@@ -16,10 +16,8 @@ import com.github.pagehelper.PageInfo;
 
 /**
  * 
- * @ClassName: SkuServiceImpl 
- * @Description: TODO
- * @author: 段文龙
- * @date: 2020年6月29日 下午7:41:50
+ * @author 45466
+ *
  */
 @Service(interfaceClass =SkuService.class )
 public class SkuServiceImpl implements SkuService {

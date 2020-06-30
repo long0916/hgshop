@@ -15,11 +15,9 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 
 /**
- * 
- * @ClassName: SpecServiceImpl 
- * @Description: 规格管理的实现类
- * @author: 段文龙
- * @date: 2020年6月29日 下午7:41:56
+ *  规格管理的实现类
+ * @author 45466
+ *
  */
 @Service(interfaceClass = SpecService.class)
 public class SpecServiceImpl  implements SpecService{
