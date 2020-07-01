@@ -8,7 +8,7 @@
   <artifactId>hgshop-web</artifactId>
   <packaging>war</packaging>
   <dependencies>
-  	 	 <!-- 引入dubbo的依赖配置 -->
+  	 <!-- 引入dubbo的依赖配置 -->
 		<dependency>
 			<groupId>org.apache.dubbo</groupId>
 			<artifactId>dubbo</artifactId>
@@ -133,7 +133,6 @@
 			<artifactId>spring-kafka</artifactId>
 			<!-- <version>1.0.0.RC1</version> -->
 		</dependency>
-
 		
 		<dependency>
 			<groupId>redis.clients</groupId>
@@ -143,15 +142,66 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-redis</artifactId>
 		</dependency>
-  	<dependency>
+		  	<dependency>
   		<groupId>com.duanwl.hgshop</groupId>
   		<artifactId>hgshop-goods-interface</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
-  	<dependency>
-  		<groupId>com.duanwl.hgshop</groupId>
-  		<artifactId>hgshop-user-interface</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
+
+		  	<dependency>
+		  		<groupId>com.duanwl.hgshop</groupId>
+		  		<artifactId>hgshop-user-interface</artifactId>
+		  		<version>0.0.1-SNAPSHOT</version>
+		  	</dependency>
   </dependencies>
+  
+  
+   <build>
+		<plugins>
+			
+			<plugin>
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>9.4.20.v20190813</version>
+				<configuration>
+					<httpConnector>
+						<!-- 端口号 -->
+						<port>9002</port>
+						<!-- <port>9094</port> -->
+						<!-- 项目访问路径 -->
+						<host>0.0.0.0</host>
+					</httpConnector>
+					<contextHandlers>
+						<jettyWebAppContext>
+							<!-- 虚拟路径 -->
+							<contextPath>/pic</contextPath>
+							<!-- 物理路径 -->
+							<resourceBase>d:/pic/</resourceBase>
+						</jettyWebAppContext>
+					</contextHandlers>
+					<scanIntervalSeconds>1</scanIntervalSeconds>
+				</configuration>
+			</plugin>
+			
+			<plugin>
+				<groupId>org.apache.tomcat.maven</groupId>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<configuration>
+					<port>8880</port>
+					<path>/</path>
+					<uriEncoding>UTF-8</uriEncoding>
+					<contextReloadable>true</contextReloadable>
+					<staticContextDocbase>D://pic</staticContextDocbase>
+					<staticContextPath>/pic</staticContextPath>
+					<!-- 自动部署开始 -->
+					    <url>http://192.168.110.134:8880/manager/text</url>
+        				<username>boss</username>
+				        <password>123456</password>
+				        <update>true</update>
+				        <path>/hgweb</path>
+				       <!-- 自动部署结束 --> 
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
