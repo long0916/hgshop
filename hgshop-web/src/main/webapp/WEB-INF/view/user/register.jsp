@@ -42,7 +42,7 @@
   <body>
     <form class="form-signin" action="register" method="post" id="registerForm">
   <div class="text-center mb-4">
-    <img class="mb-4" src="/resource/img/logo1.jpg" alt="" width="108" height="72">
+    <img class="mb-4" src="/resource/img/hg.png" alt="" width="108" height="100">
     <h1 class="h3 mb-3 font-weight-normal">豪哥商城欢迎您</h1>
   </div>
 

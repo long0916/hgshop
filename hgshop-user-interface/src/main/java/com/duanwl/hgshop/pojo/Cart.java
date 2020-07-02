@@ -8,7 +8,7 @@ import java.util.Date;
  * @ClassName: Cart 
  * @Description: 购物车
  * @author: 段文龙
- * @date: 2020年7月2日 上午10:25:40
+ * @date: 2020年7月2日 下午4:54:05
  */
 public class Cart  implements Serializable{
 	
