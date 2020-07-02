@@ -1,16 +1,16 @@
 package com.duanwl.hgshop.service;
 
-import com.duanwl.hgshop.pojo.Sku;
+import java.util.List;
 
+
+import com.duanwl.hgshop.pojo.Sku;
 import com.duanwl.hgshop.pojo.SkuVo;
 import com.github.pagehelper.PageInfo;
 
 /**
- * 
- * @ClassName: SkuService 
- * @Description: sku的管理
- * @author: 段文龙
- * @date: 2020年6月29日 下午7:40:37
+ * sku的管理
+ * @author 45466
+ *
  */
 public interface SkuService {
 	
@@ -21,6 +21,8 @@ public interface SkuService {
 	PageInfo<Sku> list(SkuVo skuvo);
 	
 	Sku getById(int id);
+	// 根据spu 获取sku的集合，同时包含规格详情
+	List<Sku> listDetailBySpu(int spuId);
 	
 
 }
