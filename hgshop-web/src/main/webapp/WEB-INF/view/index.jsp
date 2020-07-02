@@ -107,7 +107,7 @@
 				    	</c:if>
 				    </c:forEach>
 				    <li class="page-item">
-				     <a class="page-link" href="./index?categoryId=${spuVo.categoryId}&pageNum=${pageInfo.pages}">尾页</a>
+				      <a class="page-link" href="#">尾页</a>
 				    </li>
 				  </ul>
 				</nav>

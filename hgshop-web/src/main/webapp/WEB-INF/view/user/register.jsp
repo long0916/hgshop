@@ -42,7 +42,7 @@
   <body>
     <form class="form-signin" action="register" method="post" id="registerForm">
   <div class="text-center mb-4">
-    <img class="mb-4" src="/resource/img/hg.png" alt="" width="108" height="100">
+    <img class="mb-4" src="/resource/img/logo1.jpg" alt="" width="108" height="72">
     <h1 class="h3 mb-3 font-weight-normal">豪哥商城欢迎您</h1>
   </div>
 
@@ -52,8 +52,8 @@
   </div>
 
   <div class="form-label-group">
-    <input type="password" id="inputPassword" class="form-control" name="password" placeholder="密码" required="">
-    <label for="inputPassword">密码</label>
+    <input type="password" id="password" class="form-control" name="password" placeholder="密码" required="">
+    <label for="password">密码</label>
   </div>
    <div class="form-label-group">
     <input type="password" id="repassword" class="form-control" name="repassword" placeholder="密码" required="">
@@ -67,9 +67,10 @@
 <script type="text/javascript">
 
  	$("#registerForm").validate({
- 		/* submitHandler:function(form){
+ 		submitHandler:function(form){
  			alert('提交方法被拦截了')
- 		}, */
+ 			form.submit()
+ 		},
  		rules:{
  			username:{
  				remote:'./checkExist',
@@ -78,7 +79,11 @@
  			},
  			password:{
  				minlength:4
+ 			},
+ 			repassword:{
+ 				equalTo:'#password'
  			}
+ 			
  		},
  		messages:{
  			username:{
@@ -88,6 +93,9 @@
  			},
  			password:{
  				minlength:'密码太短了'
+ 			},
+ 			repassword:{
+ 				equalTo:"两次输入的密码必须一致才可以啊"
  			}
  		}
  	})
