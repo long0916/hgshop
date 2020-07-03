@@ -10,7 +10,7 @@ import com.duanwl.hgshop.pojo.Cart;
  * @ClassName: CartService 
  * @Description: 购物车服务
  * @author: 段文龙
- * @date: 2020年7月2日 下午4:55:21
+ * @date: 2020年7月3日 上午10:44:27
  */
 public interface CartService {
 	

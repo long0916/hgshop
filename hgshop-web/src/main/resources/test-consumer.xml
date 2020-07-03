@@ -22,5 +22,5 @@
 	<dubbo:registry
 		address="zookeeper://192.168.88.133:2181"  />
 	<!-- 配置扫描包的路径 -->	
-	<dubbo:annotation package="com.duanwl.goods.test"/> 
+	<dubbo:annotation package="com.zhuzg.goods.test"/> 
 </beans>

@@ -17,13 +17,6 @@ import com.duanwl.hgshop.service.CartService;
 
 
 
-/**
- * 
- * @ClassName: CartServiceImpl 
- * @Description: TODO
- * @author: 段文龙
- * @date: 2020年7月2日 下午4:57:14
- */
 @Service(interfaceClass = CartService.class)
 public class CartServiceImpl implements CartService{
 	
