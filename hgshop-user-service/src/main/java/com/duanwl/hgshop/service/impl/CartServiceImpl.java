@@ -17,6 +17,11 @@ import com.duanwl.hgshop.service.CartService;
 
 
 
+/**
+ * 
+ * @author 45466
+ *
+ */
 @Service(interfaceClass = CartService.class)
 public class CartServiceImpl implements CartService{
 	

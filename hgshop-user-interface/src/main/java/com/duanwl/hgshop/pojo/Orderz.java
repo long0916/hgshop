@@ -2,13 +2,12 @@ package com.duanwl.hgshop.pojo;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.util.Date;
 
 /**
  * 
- * @ClassName: Orderz 
- * @Description: TODO
- * @author: 段文龙
- * @date: 2020年7月2日 下午4:54:42
+ * @author 45466
+ *
  */
 public class Orderz  implements Serializable  {
 	
@@ -21,7 +20,7 @@ public class Orderz  implements Serializable  {
 	private int uid                 ;
 	private BigDecimal sumtotal            ;
 	private String address             ;
-	private int createTime         ;
+	private Date createTime         ;
 	
 	
 	
@@ -49,10 +48,10 @@ public class Orderz  implements Serializable  {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-	public int getCreateTime() {
+	public Date getCreateTime() {
 		return createTime;
 	}
-	public void setCreateTime(int createTime) {
+	public void setCreateTime(Date createTime) {
 		this.createTime = createTime;
 	}
 	@Override

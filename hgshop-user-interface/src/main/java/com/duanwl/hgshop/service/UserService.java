@@ -10,10 +10,8 @@ import com.github.pagehelper.PageInfo;
 
 /**
  * 
- * @ClassName: UserService 
- * @Description: TODO
- * @author: 段文龙
- * @date: 2020年7月3日 上午10:44:43
+ * @author 45466
+ *
  */
 public interface UserService {
 	

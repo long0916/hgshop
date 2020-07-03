@@ -24,7 +24,7 @@
     
     <!-- <aop:config>
         <aop:aspect ref="controllerAspect">
-            <aop:pointcut id="controlPointcut" expression="execution(* com.bawei.hgshop.service.impl.*.*(..))"></aop:pointcut>
+            <aop:pointcut id="controlPointcut" expression="execution(* com.duanwl.hgshop.service.impl.*.*(..))"></aop:pointcut>
             <aop:before method="before" pointcut-ref="controlPointcut"></aop:before>
             <aop:after  method="after"   pointcut-ref="controlPointcut"></aop:after>
         </aop:aspect>

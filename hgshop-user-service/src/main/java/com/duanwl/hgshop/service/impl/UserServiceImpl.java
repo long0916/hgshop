@@ -15,12 +15,11 @@ import com.duanwl.hgshop.pojo.User;
 import com.duanwl.hgshop.service.UserService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+
 /**
  * 
- * @ClassName: UserServiceImpl 
- * @Description: TODO
- * @author: 段文龙
- * @date: 2020年7月3日 上午10:46:36
+ * @author 45466
+ *
  */
 @Service(interfaceClass = UserService.class)
 public class UserServiceImpl  implements UserService{

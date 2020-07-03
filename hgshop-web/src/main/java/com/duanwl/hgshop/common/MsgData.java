@@ -2,10 +2,8 @@ package com.duanwl.hgshop.common;
 
 /**
  * 
- * @ClassName: MsgData 
- * @Description: TODO
- * @author: 段文龙
- * @date: 2020年7月2日 上午10:32:04
+ * @author 45466
+ *
  */
 public class MsgData {
 	

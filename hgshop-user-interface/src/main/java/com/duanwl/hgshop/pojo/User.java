@@ -4,10 +4,8 @@ import java.io.Serializable;
 
 /**
  * 
- * @ClassName: User 
- * @Description: TODO
- * @author: 段文龙
- * @date: 2020年7月2日 下午4:54:46
+ * @author 45466
+ *
  */
 public class User implements Serializable {  
 	

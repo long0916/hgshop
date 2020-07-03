@@ -4,11 +4,9 @@ import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
- * 
- * @ClassName: OrderDetail 
- * @Description: 订单明细
- * @author: 段文龙
- * @date: 2020年7月2日 下午4:54:31
+ * 订单明细
+ * @author 45466
+ *
  */
 public class OrderDetail implements Serializable  {
 	
@@ -67,6 +65,7 @@ public class OrderDetail implements Serializable  {
 		return "OrderDetail [id=" + id + ", skuid=" + skuid + ", total=" + total + ", oid=" + oid + ", pnum=" + pnum
 				+ ", skuName=" + skuName + "]";
 	}
+	
 	
    
 }

@@ -1,14 +1,13 @@
 package com.duanwl.hgshop.pojo;
 
 import java.io.Serializable;
+
 import java.util.Date;
 
 /**
- * 
- * @ClassName: Cart 
- * @Description: 购物车
- * @author: 段文龙
- * @date: 2020年7月2日 下午4:54:05
+ * 购物车
+ * @author 45466
+ *
  */
 public class Cart  implements Serializable{
 	

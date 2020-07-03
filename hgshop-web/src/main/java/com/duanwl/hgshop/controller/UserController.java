@@ -3,7 +3,9 @@ package com.duanwl.hgshop.controller;
 import java.util.List;
 
 
+import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 import org.apache.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Controller;
@@ -31,6 +33,7 @@ public class UserController {
 		
 		@Reference 
 		CartService cartService;
+		
 	
 		/**
 		 * 去登陆页面
@@ -172,4 +175,6 @@ public class UserController {
 			
 						
 		}
+		
+
 }

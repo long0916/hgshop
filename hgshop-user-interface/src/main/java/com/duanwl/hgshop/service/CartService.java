@@ -6,11 +6,9 @@ import java.util.List;
 import com.duanwl.hgshop.pojo.Cart;
 
 /**
- * 
- * @ClassName: CartService 
- * @Description: 购物车服务
- * @author: 段文龙
- * @date: 2020年7月3日 上午10:44:27
+ * 购物车的服务
+ * @author 45466
+ *
  */
 public interface CartService {
 	
